@@ -18,6 +18,12 @@ end
 
 gem 'jquery-rails'
 
+gem 'inherited_resources'
+gem 'formtastic'
+
+gem 'carrierwave'
+gem 'waveform'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

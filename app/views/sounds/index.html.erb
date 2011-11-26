@@ -1,0 +1,6 @@
+<ul>
+<% @sounds.each do |sound| %>
+  <li><%= link_to sound, sound %></li>
+<% end %>
+</ul>
+<nav><ul><li><%= link_to "Upload New Sound", [:new, :sound] %></li></ul></nav>

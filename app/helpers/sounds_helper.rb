@@ -1,0 +1,2 @@
+module SoundsHelper
+end
