@@ -1,3 +1,3 @@
 <h2><%= @sound %></h2>
-<%= image_tag @sound.file.waveform %>
-<%= audio_tag @sound.file, controls: true %>
+<div class="image"><%= image_tag @sound.file.waveform %></div>
+<div class="sound"><%= audio_tag @sound.file, controls: true %></div>

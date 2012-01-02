@@ -7,7 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<nav><ul><li><%= link_to "Sounds", :sounds %></li></ul></nav>
-<%= yield %>
+  <div class="topbar-wrapper">
+    <div class="topbar">
+      <div class="topbar-inner">
+        <div class="container">
+          <h3><%= link_to "Soundwave", root_path %></h3>
+          <ul class="nav">
+            <li class="<%= "active" if controller_name == "sounds" %>"><%= link_to "Sounds", :sounds %></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <%= yield %>
+  </div>
 </body>
 </html>
