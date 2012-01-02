@@ -1,8 +1,10 @@
 = Soundwave
 
+![Screenshot of an audio attachment with seekable waveform image](http://f.cl.ly/items/2g023z3B1n3x3B411T33/Screen%20Shot%202012-01-02%20at%2010.41.52%20PM.png)
+
 Created to sate [Client-Side JavaScript Waveform Visualizer](http://gun.io/open/4/) because it piqued my curiosity.
 
-Allow uploading of audio clips, thumbnailing them with a waveform, then using HTML5 audio to play them back in a browser with a scrobblable waveform.
+Allow uploading of audio clips, thumbnailing them with a waveform, then using HTML5 audio to play them back in a browser with a scrobblable/seekable waveform.
 
 == Justification
 
